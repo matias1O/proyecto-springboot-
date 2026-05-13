@@ -11,4 +11,10 @@ public class DemoController {
     public String saludo(){
         return "saludos desde Springboot";
     }
+
+    @GetMapping("/saludo2")
+    public String saludo2(){
+        return "Hola desde mi mac!";
+
+    }
 }

@@ -1,0 +1,15 @@
+name: Pipeline Test
+
+on:
+  push:
+
+jobs:
+
+  mensaje:
+
+    runs-on: ubuntu-latest
+
+    steps:
+
+      - name: Mostrar mensaje
+        run: echo "Ejecutando test"
